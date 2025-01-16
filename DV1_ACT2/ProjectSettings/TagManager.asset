@@ -3,7 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Gaps
+  - Platforms
+  - Pumpkin
+  - ZombieFemale
+  - ZombieMale
+  - Ground_Sides
+  - Coin
+  - Key
+  - Door
+  - Box
+  - Flag
   layers:
   - Default
   - TransparentFX
@@ -11,14 +23,14 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Background
+  - Ground
+  - Gaps
+  - Platforms
+  - Player
+  - Enemies
+  - Boxes
+  - Doors
   - 
   - 
   - 
