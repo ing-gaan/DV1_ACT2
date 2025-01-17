@@ -126,8 +126,15 @@ namespace Characters
             Debug.DrawRay(transform.position, rayDirection * 0.85f, Color.red);
 
             animationCtl.Animate(playerAction);
+            //moveCtl.ImproveVerticalVelocity();
+        }
+
+
+        void FixedUpdate()
+        {
             moveCtl.ImproveVerticalVelocity();
         }
+
 
         ///<summary>Moves the player.</summary>
         ///<param name="direction">The horizontal direction to move.</param>

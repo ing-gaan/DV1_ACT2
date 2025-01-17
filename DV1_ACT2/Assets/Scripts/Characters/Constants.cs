@@ -20,16 +20,16 @@ namespace Characters
         {
             public static readonly short LIVES = 5;
             public static readonly float DELTA_TIME_MULTIPLIER = 25f;
-            public static readonly float WALK_SPEED = 5f;
-            public static readonly float RUN_SPEED = 8f;
+            public static readonly float WALK_SPEED = 4f;
+            public static readonly float RUN_SPEED = 6f;
             
 
             public static readonly float JUMP_FORCE = 12f;
             public static readonly float OVER_JUMP_FORCE = JUMP_FORCE / 1.4f;
             public static readonly short MAX_JUMPS = 2;
 
-            public static readonly float FALL_MULTIPLIER = 2.5f/1000;
-            public static readonly float LOW_JUMP_MULTIPLIER = 2f/800;
+            public static readonly float FALL_MULTIPLIER = 2.5f/50;
+            public static readonly float LOW_JUMP_MULTIPLIER = 2f/50;
         }
 
         //The enemies constants

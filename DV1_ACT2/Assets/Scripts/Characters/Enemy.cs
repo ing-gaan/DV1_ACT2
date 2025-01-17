@@ -74,9 +74,7 @@ namespace Characters
             {
                 Walk();
             }
-        //}
-        //private void FixedUpdate()
-        //{
+
             //Enemy dead
             if (isDead)
             {
