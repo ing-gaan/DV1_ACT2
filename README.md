@@ -1,4 +1,4 @@
-# Solución Actividad 2: Un Juego De Plataformas
+# Solución Actividad 2: Plataformas 2D completo
 
 ## Introducción
 
